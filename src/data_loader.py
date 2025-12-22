@@ -1,6 +1,4 @@
 import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
 
 def load_claims():
     return pd.read_csv("../data/insurance_simple/claims.csv")
@@ -10,4 +8,5 @@ def load_contracts():
 
 def load_vehicles():
     return pd.read_csv("../data/insurance_simple/vehicles.csv")
+
 
